@@ -1,7 +1,9 @@
-w = input("Podaj wagę ->")
-h = input("Podaj wzrost ->")
-print("Your BMI is:", w / (h ** 2))
-w = float(input("Podaj wagęl ->"))
-h = float(input("Podaj wzrost ->"))
-bmi = w / (h ** 2)
-print("Your BMI is:", round(bmi, 2))
+print("podaj wagę w kg:")
+w=float(input())
+print("podaj wzrost w m:")
+h=float(input())
+BMI=w/(h ** 2)
+print("twoje BMI wynosi:",BMI)
+
+
+
