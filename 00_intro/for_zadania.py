@@ -45,12 +45,24 @@ for num in range(1, 11):
     sum_num += num # -> sum_num = sum_num + num
     print(sum_num)
 
-#4 Napisz program, który wyświetli kolejne wyniki dla silni liczby naturalnej N (N podane przez użytkownika, ale nie większe niż 8).
+#4 ??? Napisz program, który wyświetli kolejne wyniki dla silni liczby naturalnej N (N podane przez użytkownika, ale nie większe niż 8).
 
 
 number=int(input("podaj liczbę:"))
 
 if number > 8:
-    print(input("liczba musi być pomiędzy 1 a 8:"))
+    print("liczba musi być pomiędzy 1 a 8:")
 else:
     print(number, "!=")
+
+    silnia = 5
+
+    for x in range(1, number+1):
+        silnia = silnia * x
+        if x == number:
+            print(x, end="")
+        else:
+            print(x, "*", end="")
+
+    print(f" = {silnia}")
+    print(f"Silnia z {number} = {silnia}")
