@@ -19,18 +19,18 @@
 
 """1▹ Stwórz krotkę zawierającą dane twojego pupila (rodzaj zwierzecia, rasa, jak się wabi).
  Następnie rozpakuj tę krotkę na pojedyńcze zmienne. Wykorzystaj zmienne do wyświetlenia f-stringa,
-  tak by mogło powstać zdanie np. “Mój pies, rasy border collie wabi się Dyzio”.
+  tak by mogło powstać zdanie np. “Mój pies, rasy border collie wabi się Dyzio”."""
 # #1
-# my_tuple2 = ('kot', 'dachowiec', 'Pirat')
-# my_tuple1 = ('mój', 'to', 'nazywa się')
-#
-# mt2 = list(my_tuple2)
-# mt1 = list(my_tuple1)
-#
-# print(mt1[0], mt2[0],mt1[1], mt2[1], mt1[2], mt2[2],)
-#
+my_tuple2 = ('kot', 'dachowiec', 'Pirat')
+my_tuple1 = ('mój', 'to', 'nazywa się')
 
-2▹ Stwórz krotkę. Znajdź powtarzające się elementy krotki. Wyświetl je."""
+mt2 = list(my_tuple2)
+mt1 = list(my_tuple1)
+
+print(mt1[0], mt2[0],mt1[1], mt2[1], mt1[2], mt2[2],)
+
+
+"""2▹ Stwórz krotkę. Znajdź powtarzające się elementy krotki. Wyświetl je."""
 
 
 
@@ -40,8 +40,9 @@ mt3 = (3, 4, 4)
 list_mt3 = list(mt3)
 print(sorted(list_mt3))
 
-while [0] in list_mt3:
-    if [0] % [1] == 1:
-        print(list_mt3[i])
+
+for i in count >= 2:
+    count = mt3.count(i)
+    print(count)
 
 
