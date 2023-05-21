@@ -1,2 +1,2 @@
 ﻿# kurs_python
-to są moje nototaki z kursu
+Zadania domowe z kursu
